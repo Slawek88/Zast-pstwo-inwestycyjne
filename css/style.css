@@ -7,24 +7,24 @@ body {
 .navbar-default {
     background: #fff;
     border: 0;
-    font-size: 17px;
+    font-size: 15px;
     font-family: Poppins;
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 23px;
     color: #000 !important;
     font-weight: bold;
 }
 
 .showcase-left h1 {
-    font-size: 55px;
+    font-size: 41px;
     font-weight: bold;
     font-family: Poppins, sans-serif;
 }
 
 .showcase-right h3 {
-    font-size: 27px;
+    font-size: 23px;
     font-family: Poppins;
     color: #777777;
 }
@@ -48,7 +48,7 @@ img {
 }
 
 #about-info p {
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'Josefin Sans';
     color: #000;
 }
@@ -62,6 +62,7 @@ img {
 /* card */
 
 
+
 .card-img img {
     width: 100%;
 }
@@ -72,16 +73,23 @@ img {
     padding: .6rem;
 }
 
-.about-why {
+/* .about-why {
     font-family: Poppins;
     color: #777777;
-}
+} */
 
 .mbr-title {
     font-family: Poppins;
     color: #777777;
 }
 
+.card-box p {
+    font-size: 12px;
+}
+
+/* .mbr-fonts-style h3 {
+    font-size: 20px !important;
+} */
 
 hr {
     margin-top: 20px;
@@ -93,6 +101,7 @@ hr {
 /* Section INFO */
 #info2 h2 {
     text-align: center;
+    font-size: 28px;
 }
 
 #info2 {
@@ -165,10 +174,26 @@ footer {
 
 @media(max-width: 410px) {
     #about-info p {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    #about-info p.customer {
+        font-size: 16px;
+    }
+
+    .showcase-left h1 {
+        font-size: 30px;
+    }
+
+    .showcase-right h3 {
+        font-size: 17px;
     }
 
     h2 {
         font-size: 25px;
+    }
+
+    .contact-info {
+        font-size: 1.5rem;
     }
 }
