@@ -18,7 +18,7 @@ body {
 }
 
 .showcase-left h1 {
-    font-size: 41px;
+    font-size: 37px;
     font-weight: bold;
     font-family: Poppins, sans-serif;
 }
@@ -152,11 +152,11 @@ footer {
 
 @media(max-width: 892px) {
     .showcase-left h1 {
-        font-size: 37px;
+        font-size: 34px;
     }
 
     .showcase-right h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #about-info p {
